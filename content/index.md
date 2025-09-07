@@ -1,17 +1,12 @@
 ---
-title: Welcome to landing page
+title: "Welcome to truelyyours digital garden 🌱"
+description: "A collection of thoughts, notes, and discoveries"
+enableToc: false
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+This is where I share my thoughts, learnings, and discoveries across various topics. Feel free to explore and discover something new!
 
-## Some Trials etc.
-```python
-import os
+> [!info] Browse All Content
+> Use the explorer on the left to navigate through all posts and categories, or use the search function to find specific topics.
 
-def get_random():
-    return os.random()
-
-if __name__ == __main__:
-    print(get_random())
-```
+---
