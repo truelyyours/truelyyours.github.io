@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "truelyyours.github.io",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", ".git", "quartz_deploy", "*.tmp.*"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
