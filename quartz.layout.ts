@@ -25,15 +25,15 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ContentMeta(),
     Component.TagList(),
     // Show recent notes only on the index page
-    Component.ConditionalRender({
-      component: Component.RecentNotes({
-        title: "Recent Posts",
-        limit: 10,
-        filter: (page) => page.slug !== "index",
-        linkToMore: "tags/" as SimpleSlug,
-      }),
-      condition: (page) => page.fileData.slug === "index",
-    }),
+    // Component.ConditionalRender({
+    //   component: Component.RecentNotes({
+    //     title: "Recent Posts",
+    //     limit: 10,
+    //     filter: (page) => page.slug !== "index",
+    //     linkToMore: "tags/" as SimpleSlug,
+    //   }),
+    //   condition: (page) => page.fileData.slug === "index",
+    // }),
   ],
   left: [
     Component.PageTitle(),
